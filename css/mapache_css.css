@@ -1,66 +1,65 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+    box-sizing: border-box; 
 }
 
 body {
-    font-family: 'Dancing Script', cursive; /* Fuente cursiva */
-    background-image: url('../img/fondo_mapache_2.png'); /* Imagen de fondo */
+    font-family: 'Dancing Script', cursive; 
+    background-image: url('../img/fondo_mapache_2.png'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: #333; /* Texto principal gris oscuro */
+    color: #333; 
 }
 
-/* Encabezado */
+
 header {
     text-align: center;
     padding: 30px;
-    background-color: #777; /* Gris medio */
-    color: #eee; /* Color claro para el texto */
+    background-color: #777; 
+    color: #eee; 
 }
 
 header h1 {
     margin-bottom: 10px;
 }
 
-/* Navegación */
-/* Estilo de navegación */
+
 nav {
-    display: flex; /* Flexbox para organizar los enlaces en línea */
-    justify-content: center; /* Centra los enlaces horizontalmente */
-    align-items: center; /* Alinea los enlaces verticalmente */
-    gap: 15px; /* Espaciado entre los enlaces */
-    background-color: #444; /* Fondo oscuro */
-    padding: 10px; /* Espaciado interno del nav */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    background-color: #444; 
+    padding: 10px; 
 }
 
 nav a {
-    color: #eee; /* Color claro para el texto */
-    text-decoration: none; /* Elimina el subrayado */
-    padding: 10px 15px; /* Relleno interno de los enlaces */
-    background-color: transparent; /* Sin fondo inicial */
-    transition: all 0.3s ease; /* Transición suave para el hover */
+    color: #eee; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    background-color: transparent; 
+    transition: all 0.3s ease; 
 }
 
 nav a:hover {
-    background-color: #eee; /* Fondo claro al pasar el ratón */
-    color: #444; /* Texto oscuro al pasar el ratón */
+    background-color: #eee; 
+    color: #444; 
 }
 
-/* Contenido principal */
+
 main {
     padding: 30px 50px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
 }
 
 main section {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd; /* Línea divisoria */
+    border-bottom: 1px solid #ddd; 
 }
 
 main section:last-child {
@@ -68,7 +67,7 @@ main section:last-child {
 }
 
 main h2 {
-    color: #555; /* Gris medio */
+    color: #555; 
     margin-top: 0;
     margin-bottom: 15px;
 }
@@ -79,7 +78,7 @@ main p {
 }
 
 main ul {
-    list-style: disc; /* Marcador estilo disco */
+    list-style: disc; 
     margin-left: 20px;
 }
 
@@ -91,11 +90,11 @@ main em {
     font-style: italic;
 }
 
-/* Imágenes con bordes redondeados */
+
 .imagen-redondeada {
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    display: block; /* Centra horizontalmente */
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    display: block; 
     margin: 10px auto;
 }
 
@@ -103,8 +102,8 @@ main em {
 footer {
     text-align: center;
     padding: 30px;
-    background-color: #b8860b; /* Tono marrón */
-    color: #fff; /* Texto blanco */
+    background-color: #b8860b; 
+    color: #fff; 
     border-radius: 0 0 8px 8px;
     margin-top: 30px;
 }
